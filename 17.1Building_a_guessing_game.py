@@ -1,0 +1,17 @@
+#This is an improvement of our guessing game
+#Let limit their guess tries to three
+secret_word = "giraffe"
+guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guesses = False #Out of guesses is gonna be a boolean and its gonna tell us whether we or not the user is out of guess
+while guess != secret_word and not(out_of_guesses):
+    if guess_count < guess_limit:
+        guess = input("Enter guess: ")
+        guess_count += 1
+    else:
+        out_of_guesses = True
+if out_of_guesses:
+    print("Out of guesses! You lose")
+else:
+    print("You win")
