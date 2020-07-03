@@ -19,5 +19,8 @@ monthConversions = {
     "Dec": "December"
 }
 print(monthConversions["Nov"]) #also i can access it by:
-print(monthConversions.get("Lob")) #This is the best because if you put something not in the dictionary it returns none instead of an error
+#print(monthConversions.get("Lob")) #This is the best because if you put something not in the dictionary it returns none instead of an error
+#.get also gives us a fallback value that we can get back to if the input is invalid instead of none
+print(monthConversions.get("Luv", "Not a valid key!"))
+#The keys don't have to be strings, they can also be numbers
 
