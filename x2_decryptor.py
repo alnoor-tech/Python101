@@ -7,7 +7,7 @@ def indexing(phrase):
     for letter in phrase.lower():
         if letter in alphabet:
             pos = alphabet.index(letter)
-            translation = translation + alphabet[pos + 2]
+            translation = translation + alphabet[pos - 2]
         else:
             translation = translation + letter
     return translation
