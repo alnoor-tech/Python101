@@ -12,7 +12,3 @@ def indexing(phrase):
             translation = translation + letter
     return translation
 print(indexing(input("Enter a phrase: ")))
-
-
-
-
