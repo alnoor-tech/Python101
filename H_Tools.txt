@@ -1,0 +1,11 @@
+Top Ten Hacker Tools
+1. John the Ripper
+2. Metaspoilt
+3. Nmap
+4. Acutenix WVS
+5. Wireshark
+6. Maltego
+7. Burpsuit
+8. Aircrack-ng
+9. OWASP Zed
+10. THC-Hydra
